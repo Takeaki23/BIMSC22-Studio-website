@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+ }
+ 
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #b1b1b181;
+    text-align: center;
+ }
+
+ header {
+    width: 100%;
+    padding: 30px 4% 10px;
+    background-color: #fff;
+    position: relative;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+   margin: 0; padding: 0;
+   font-size: 100px;
+   position: absolute;
+   color: #fff;
+}
+
+a {	
+   text-decoration: none;
+   color: #4b4b4b;
+}
+
+ul {
+   list-style: none;
+   margin: 0;
+   display: flex;
+}
+
+li {
+   margin: 0 0 0 15px;
+   font-size: 14px;
+}
+
+nav {
+   margin: 0 auto;
+}
+
+.title_div {
+   width: 70%;
+   text-align: center;
+   margin: 0 auto;
+}
+
+.title {
+   position:absolute;
+   color: #fff;
+   padding: 20% 30%;
+   text-align:center;
+  }
+
+.title_image {
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 50em;
+   width: 100%;
+}
+
+.concept {
+   margin: 2, 0ex;
+}
+
+.AXO {
+   width: auto;
+}
+
+.intro-row {
+   width: 50%;
+   margin: 100px auto 100px auto;
+   text-align: left;
+}
+
+.img_infra{
+   width: 40%;
+   float: left;
+   margin-right: 30px;
+}
+
+.img_living{
+   width: 40%;
+   float: right;
+   margin-left: 30px;
+}
+
+.img_working{
+   width: 40%;
+   float: left;
+   margin-right: 30px;
+}
+
+.img_recreation{
+   width: 40%;
+   float: right;
+   margin-left: 30px;
+}
+
+.img_greenhouse{
+   width: 40%;
+   float: left;
+   margin-right: 30px;
+}
+
