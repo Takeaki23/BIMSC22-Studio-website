@@ -23,7 +23,6 @@
 h1 {
    margin: 0; padding: 0;
    font-size: 100px;
-   position: absolute;
    color: #fff;
 }
 
@@ -45,4 +44,41 @@ li {
 
 nav {
    margin: 0 auto;
+}
+
+.Axo_with_highlight {
+   width: 50%;
+}
+
+.detail_row {
+   width: 70%;
+   margin: 100px auto 100px auto;
+   text-align: left;
+   display: flex;
+   justify-content: space-between;
+}
+
+.detail_row div{
+   width: 50%;
+   margin: 10px;
+}
+
+.diagram {
+   width: 100%;
+   float: right;
+}
+
+.render1 {
+   width: 100%;
+   float: left;
+}
+
+.render2 {
+   width: 100%;
+   float: right;
+}
+
+.footer {
+   margin: 5em auto;
+   position: relative;
 }
